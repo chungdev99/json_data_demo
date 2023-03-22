@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "chung",
+      "teams": "Team 1",
+      "email": "chungtran@gmail.com",
+      "gender": "M"
+    },
+    {
+      "id": 2,
+      "name": "Jonnn",
+      "teams": "Team 3",
+      "email": "tranc@gmail.comm",
+      "gender": "L"
+    }
+  ]
+}

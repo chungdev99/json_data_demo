@@ -1,0 +1,33 @@
+# Categories
+
+# @name getAllCategories
+GET http://localhost:4000/api/categories
+
+###
+
+# @name addNewCategory
+POST http://localhost:4000/api/categories
+Content-Type: application/json
+
+{
+    "name" : "Tran Phuoc Chung",
+    "email" : "chungtran@gmail.com",
+    "teams" : "team 1",
+    "gender": "male"
+}
+
+###
+
+PATCH  http://localhost:4000/api/categories/2
+Content-Type: application/json
+
+{
+    "name" : "chung1234"
+}
+
+
+###
+
+# @name deleteCategory
+DELETE  http://localhost:4000/api/categories/3
+
